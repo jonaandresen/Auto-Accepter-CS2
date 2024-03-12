@@ -1,5 +1,5 @@
 # Auto-Accepter-CS2
-Simple tool to automatically accept an upcoming game.
+Simple tool to automatically accept an upcoming game in Counter-Strike 2
 
 # How does it work?
 - Start the autoaccept.exe in the releases folder
@@ -15,4 +15,5 @@ When the green image appears on the screen, the tool collects its coordinates an
 Sure, but you have to take a screenshot of the accept button and replace the "accept.png".
 You don't need the whole Button just a clear characteristic of it.
 Then compile with:
+
 ```python -m PyInstaller --onefile --icon=app.ico --add-data "accept.png:." .\autoaccept.py```
