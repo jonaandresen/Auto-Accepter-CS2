@@ -5,7 +5,7 @@ Simple tool to automatically accept an upcoming game.
 - Start the autoaccept.exe in the releases folder
 - Open CS2 (main monitor)
 - If the "accept" button appears on the screen, the program will click it
-- If no "accept" button appears on the screen, the program will check every 2 seconds.
+- The program will check every 2 seconds for the button
 
 # How does the magic work?
 The "magic" is a Python tool that looks for the green color in the "Accept" button.
