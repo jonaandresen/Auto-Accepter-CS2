@@ -2,7 +2,7 @@
 Simple tool to automatically accept an upcoming game.
 
 # How does it work?
-- Start the autoaccepter.exe in the releases folder
+- Start the autoaccept.exe in the releases folder
 - Open CS2 (main monitor)
 - If the "accept" button appears on the screen, the program will click it
 - If no "accept" button appears on the screen, the program will check every 2 seconds.
