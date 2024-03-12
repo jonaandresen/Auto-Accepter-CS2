@@ -8,10 +8,11 @@ Simple tool to automatically accept an upcoming game.
 - If no "accept" button appears on the screen, the program will check every 2 seconds.
 
 # How does the magic work?
-The "magic" is a Python tool that looks for the green colour in the "Accept" button.
-When the green image appears on the screen, the tool collects its coordinates and clicks in the middle.
+The "magic" is a Python tool that looks for the green color in the "Accept" button.
+When the green image appears on the screen, the tool collects its coordinates and clicks in the middle of it.
 
 # Can I use if for other games?
 Sure, but you have to take a screenshot of the accept button and replace the "accept.png".
+You don't need the whole Button just a clear characteristic of it.
 Then compile with:
 ```python -m PyInstaller --onefile --icon=app.ico --add-data "accept.png:." .\autoaccept.py```
